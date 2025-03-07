@@ -8,4 +8,6 @@ elseif game.GameId == 6793832056 then -- Rock Fruit
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/li15i00tze7w1a49sta2wnl2qt3gn4w9.lua"))()
 elseif game.GameId == 6325068386 then -- Blue Lock: Rivals
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/gqnu9srb19mmsvv4ts6mh5nodx885nnq.lua"))()
+elseif game.GameId == 5939817752 then -- Wizard West
+	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/nkmup6hm0uzoaaq3ee61i4lohp071ypo.lua"))()
 end
