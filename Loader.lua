@@ -14,4 +14,6 @@ elseif game.GameId == 5939817752 then -- Wizard West
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/nkmup6hm0uzoaaq3ee61i4lohp071ypo.lua"))()
 elseif game.GameId == 3808223175 then -- Jujutsu Infinite
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/wpckcttyzwdtvgjuiz0lb3cjede71h09.lua"))()
+elseif game.GameId == 4658598196 then
+	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/p9t0dcpm04drl2ut8bhks2pn7lspb2vh.lua"))()
 end
