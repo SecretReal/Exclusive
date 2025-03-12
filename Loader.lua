@@ -16,4 +16,6 @@ elseif game.GameId == 3808223175 then -- Jujutsu Infinite
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/wpckcttyzwdtvgjuiz0lb3cjede71h09.lua"))()
 elseif game.GameId == 4658598196 then -- AOT:R
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/p9t0dcpm04drl2ut8bhks2pn7lspb2vh.lua"))()
+elseif game.GameId == 1202096104 then -- Driving Empire
+	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/wdyx92srj3i0z51sjjmxhqtjnzwbk97m.lua"))()
 end
