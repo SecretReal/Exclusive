@@ -15,7 +15,7 @@ local GetHUI = gethui or (function() return CoreGui end);
 local IsKrampus = ((identifyexecutor or (function() return "" end))():lower() == "krampus");
 
 local ScreenGui = Instance.new('ScreenGui');
-ScreenGui.Name = "nuhuh";
+ScreenGui.Name = "ScreenGui";
 ProtectGui(ScreenGui);
 
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
