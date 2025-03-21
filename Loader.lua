@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/z2ioh2fx175gbqdsenk39xsy1dbjxjp3.lua"))()
+--[[
 if game.GameId == 6471449680 then -- Verse Piece
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/4icruao45zosa9rtzfrly8flfshh89gh.lua"))()
 elseif game.GameId == 6754864595 then -- Moodeng fruit
@@ -19,3 +21,4 @@ elseif game.GameId == 4658598196 then -- AOT:R
 elseif game.GameId == 1202096104 then -- Driving Empire
 	loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/wdyx92srj3i0z51sjjmxhqtjnzwbk97m.lua"))()
 end
+]]
