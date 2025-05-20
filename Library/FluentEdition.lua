@@ -4,7 +4,7 @@ local cloneref = cloneref or function(a)
     return a
 end
 local b, c = {
-    Version = "1.0.1",
+    Version = "1.0.2",
     Themes = {
         AccentColor = Color3.fromRGB(0, 0, 0),
         BackgroundColor = Color3.fromRGB(255, 68, 177),
