@@ -2,7 +2,6 @@ do
 	Players = game:GetService("Players")
 	Client = Players.LocalPlayer
 	__bl = {
-		"delta",
 		"solara",
 		"xeno",
 	}
