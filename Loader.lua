@@ -16,7 +16,7 @@ until Client
 
 local Request
 if secure_get then
-	Request = game.secure_get
+	Request = secure_get
 else
 	Request = game.HttpGetAsync
 end
