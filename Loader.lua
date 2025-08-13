@@ -1,6 +1,7 @@
 do
 	Players = game:GetService("Players")
 	Client = Players.LocalPlayer
+	VirtualUser = game:GetService("VirtualUser")
 	__bl = {
 		"solara",
 		"xeno",
@@ -13,6 +14,11 @@ until game:IsLoaded()
 repeat
 	task.wait()
 until Client
+
+Client.Idled:Connect(function()
+    VirtualUser:CaptureController()
+    VirtualUser:ClickButton2(Vector2.new())
+end)
 
 local Request
 if secure_get then
